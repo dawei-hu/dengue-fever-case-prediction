@@ -8,7 +8,7 @@ The dataset was downloaded from [DrivenData](https://www.drivendata.org/competit
 
 ## Key Steps  
 
-- Data preprocessing was performed, including missing value imputation, feature integration, and unit standardization. To maintain the continuity of the time series, no rows were removed,
+- Data preprocessing was performed, including missing value imputation, feature integration, and unit standardisation. To maintain the continuity of the time series, no rows were removed.
 
 - Considering factors such as mosquito and virus incubation periods, dengue transmission is likely influenced by environmental conditions from previous weeks. Therefore, lag features of 5 and 10 weeks were generated to capture the impact of historical trends and seasonality on the current value of the target variable.
 
@@ -17,7 +17,7 @@ The dataset was downloaded from [DrivenData](https://www.drivendata.org/competit
 - A custom dual-linear regression model was designed to improve prediction accuracy by combining seasonal trend modeling with residual prediction based on environmental lag features. The model first captures seasonal patterns in dengue cases using linear regression on time features, then fits the residuals with environmental features to refine the overall forecast.
 
 ## Results  
-The final model achieved high accuracy with a Mean Absolute Error (MAE) of 18.33 and ranked 155th in DrivenData DengAI competition.
+The final model achieved high accuracy with a Mean Absolute Error (MAE) of 18.33 and ranked 155th in the DrivenData DengAI competition.
 
 <img src="img/score.png" alt="Submission score" width="300">
 
@@ -44,6 +44,11 @@ The final model achieved high accuracy with a Mean Absolute Error (MAE) of 18.33
     ```
     pip install -r requirements.txt
     ```
+## Team Members
+- Chun Kit Foo
+- Dawei Hu
+- Zeyang Hao
+
 3. Launch Jupyter Notebook:
     ```
     jupyter notebook
