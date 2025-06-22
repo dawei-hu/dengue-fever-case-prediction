@@ -44,14 +44,14 @@ The final model achieved high accuracy with a Mean Absolute Error (MAE) of 18.33
     ```
     pip install -r requirements.txt
     ```
-## Team Members
-- Chun Kit Foo
-- Dawei Hu
-- Zeyang Hao
-
 3. Launch Jupyter Notebook:
     ```
     jupyter notebook
     ```
 4. Open and run the notebook:  
 Open the file `CW2_submission.ipynb` and run all the cells.
+
+## Team Members
+- Chun Kit Foo
+- Dawei Hu
+- Zeyang Hao
